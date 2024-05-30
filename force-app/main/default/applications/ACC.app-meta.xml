@@ -20,6 +20,7 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
+        <logo>Launchpad_2020_Logo</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
@@ -39,8 +40,7 @@
     <tabs>Launchpad__Document__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Invoice__c</tabs>
-    <tabs>Project__c</tabs>
+    <tabs>Launchpad__Grant__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Appalachian_Children_Coalition_UtilityBar</utilityBar>
 </CustomApplication>
