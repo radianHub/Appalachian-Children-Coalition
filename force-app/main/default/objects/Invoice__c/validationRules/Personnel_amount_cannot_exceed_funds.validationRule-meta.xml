@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personnel_amount_cannot_exceed_funds</fullName>
+    <active>true</active>
+    <description>Personnel Amount cannot exceed Personnel Funds Remaining</description>
+    <errorConditionFormula>Personnel_Amount__c  &gt;  Project__r.Personnel_Funds_Remaining__c</errorConditionFormula>
+    <errorMessage>Personnel Amount cannot exceed Personnel Funds Remaining</errorMessage>
+</ValidationRule>

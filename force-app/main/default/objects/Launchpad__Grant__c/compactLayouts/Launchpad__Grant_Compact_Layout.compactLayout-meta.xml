@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launchpad__Grant_Compact_Layout</fullName>
+    <fields>Launchpad__Grant_Name__c</fields>
+    <fields>Launchpad__Grant_Year_Start__c</fields>
+    <fields>Launchpad__Funding_Stream_Amount__c</fields>
+    <label>Grant Compact Layout</label>
+</CompactLayout>

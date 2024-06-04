@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launchpad__All</fullName>
+    <columns>NAME</columns>
+    <columns>Launchpad__Grant_Name__c</columns>
+    <columns>Launchpad__Funding_Stream_Amount__c</columns>
+    <columns>Launchpad__Grant_Funds_Encumbered__c</columns>
+    <columns>Launchpad__Grant_Funds_Expended__c</columns>
+    <columns>Launchpad__Total_Expended__c</columns>
+    <columns>Launchpad__Percentage_Funding_Expended__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>
