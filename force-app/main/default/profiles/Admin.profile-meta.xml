@@ -113,82 +113,82 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Construction_Funds_Remaining__c</field>
+        <field>Subrecipient__c.Construction_Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Construction_Funds_Used__c</field>
+        <field>Subrecipient__c.Construction_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Project__c.Construction_Funds__c</field>
+        <field>Subrecipient__c.Construction_Funds__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Equipment_Funds_Remaining__c</field>
+        <field>Subrecipient__c.Equipment_Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Equipment_Funds_Used__c</field>
+        <field>Subrecipient__c.Equipment_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Project__c.Equipment_Funds__c</field>
+        <field>Subrecipient__c.Equipment_Funds__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Funds_Remaining__c</field>
+        <field>Subrecipient__c.Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Funds_Used__c</field>
+        <field>Subrecipient__c.Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Percentage_Construction_Funds_Used__c</field>
+        <field>Subrecipient__c.Percentage_Construction_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Percentage_Equipment_Funds_Used__c</field>
+        <field>Subrecipient__c.Percentage_Equipment_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Percentage_Funds_Used__c</field>
+        <field>Subrecipient__c.Percentage_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Percentage_Personnel_Funds_Used__c</field>
+        <field>Subrecipient__c.Percentage_Personnel_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Personnel_Funds_Remaining__c</field>
+        <field>Subrecipient__c.Personnel_Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Personnel_Funds_Used__c</field>
+        <field>Subrecipient__c.Personnel_Funds_Used__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Project__c.Personnel_Funds__c</field>
+        <field>Subrecipient__c.Personnel_Funds__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Project__c.Total_Funds__c</field>
+        <field>Subrecipient__c.Total_Funds__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -198,7 +198,7 @@
         <layout>Launchpad__Grant__c-Launchpad__Grant Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Project__c-Project Layout</layout>
+        <layout>Subrecipient__c-Project Layout</layout>
     </layoutAssignments>
     <loginIpRanges>
         <endAddress>255.255.255.255</endAddress>
@@ -228,7 +228,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Project__c</object>
+        <object>Subrecipient__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
@@ -240,7 +240,7 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Project__c</tab>
+        <tab>Subrecipient__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
