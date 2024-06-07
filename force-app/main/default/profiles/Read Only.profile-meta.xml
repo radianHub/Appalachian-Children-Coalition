@@ -148,6 +148,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Project__c.Percentage_Construction_Funds_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Project__c.Percentage_Equipment_Funds_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Project__c.Percentage_Funds_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Project__c.Percentage_Personnel_Funds_Used__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Project__c.Personnel_Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>

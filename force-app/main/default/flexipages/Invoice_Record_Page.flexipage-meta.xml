@@ -4,66 +4,16 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>actionNames</name>
-                    <valueList>
-                        <valueListItems>
-                            <value>FeedItem.TextPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.ContentPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.QuestionPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.NewEvent</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Edit</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.NewContact</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Global.LogACall</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.ContentNote</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.PollPost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>FeedItem.RypplePost</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Delete</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Clone</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>ChangeOwnerOne</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>ChangeRecordType</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>PrintableView</value>
-                        </valueListItems>
-                    </valueList>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>collapsed</name>
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsConfiguration</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>enableActionsInNative</name>
-                    <value>true</value>
+                    <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideChatterActions</name>
@@ -94,17 +44,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
-                <identifier>force_detailPanel</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>detailTabContent</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
                 <componentInstanceProperties>
                     <name>relatedListComponentOverride</name>
                     <value>NONE</value>
@@ -128,6 +67,31 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <mode>Replace</mode>
+        <name>detailTabContent</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>relatedTabContent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.relatedLists</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>relatedListsTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>active</name>
                     <value>true</value>
@@ -142,20 +106,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>detailTab</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>relatedTabContent</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Invoices</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>relatedListsTab</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -230,9 +180,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Project Record Page</masterLabel>
+    <masterLabel>Invoice Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Project__c</sobjectType>
+    <sobjectType>Invoice__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>
