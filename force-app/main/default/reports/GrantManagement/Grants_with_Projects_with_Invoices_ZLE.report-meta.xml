@@ -5,19 +5,25 @@
         <backgroundColor2>#FFFFFF</backgroundColor2>
         <backgroundFadeDir>Diagonal</backgroundFadeDir>
         <chartSummaries>
+            <aggregate>Sum</aggregate>
             <axisBinding>y</axisBinding>
-            <column>RowCount</column>
+            <column>Launchpad__Grant__c$Funds_Unencumbered__c</column>
         </chartSummaries>
-        <chartType>Donut</chartType>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Launchpad__Grant__c$Funds_Encumbered__c</column>
+        </chartSummaries>
+        <chartType>HorizontalBar</chartType>
         <enableHoverLabels>false</enableHoverLabels>
-        <expandOthers>false</expandOthers>
-        <groupingColumn>Launchpad__Grant__c$Id</groupingColumn>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Launchpad__Grant__c$Launchpad__Grant_Name__c</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <showAxisLabels>true</showAxisLabels>
         <showPercentage>false</showPercentage>
-        <showTotal>true</showTotal>
-        <showValues>false</showValues>
+        <showTotal>false</showTotal>
+        <showValues>true</showValues>
         <size>Medium</size>
         <summaryAxisRange>Auto</summaryAxisRange>
         <textColor>#000000</textColor>
@@ -26,18 +32,35 @@
         <titleSize>18</titleSize>
     </chart>
     <columns>
-        <field>Launchpad__Grant__c$Name</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Launchpad__Grant__c$Funds_Encumbered__c</field>
     </columns>
     <columns>
-        <field>Launchpad__Grant__c.Projects__r$Name</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Launchpad__Grant__c$Funds_Unencumbered__c</field>
     </columns>
     <columns>
-        <field>Launchpad__Grant__c.Projects__r.Invoices__r$Name</field>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Launchpad__Grant__c$Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Launchpad__Grant__c$Funds_Expended__c</field>
     </columns>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Launchpad__Grant__c$Id</field>
+        <field>Launchpad__Grant__c$Launchpad__Grant_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Launchpad__Grant__c.Projects__r$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Launchpad__Grant__c.Projects__r.Invoices__r$Name</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Grants with Projects with Invoices</name>

@@ -292,4 +292,27 @@
         </columns>
         <masterLabel>Invoices</masterLabel>
     </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Percentage_Funds_Used__c</field>
+            <table>Launchpad__Grant__c.Projects__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Percentage_Equipment_Funds_Used__c</field>
+            <table>Launchpad__Grant__c.Projects__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Percentage_Construction_Funds_Used__c</field>
+            <table>Launchpad__Grant__c.Projects__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Percentage_Personnel_Funds_Used__c</field>
+            <table>Launchpad__Grant__c.Projects__r</table>
+        </columns>
+        <masterLabel>Subrecipients</masterLabel>
+    </sections>
 </ReportType>
