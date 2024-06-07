@@ -98,7 +98,7 @@
                 <identifier>force_relatedListSingleContainer</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-1262feb1-368c-4989-b65a-2978224a9297</name>
+        <name>Facet-9704bcb1-4f81-4e94-80ff-a7c93d3dde52</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -134,11 +134,11 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-1262feb1-368c-4989-b65a-2978224a9297</value>
+                    <value>Facet-9704bcb1-4f81-4e94-80ff-a7c93d3dde52</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
-                    <value>Projects</value>
+                    <value>Subrecipients</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab4</identifier>

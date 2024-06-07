@@ -139,6 +139,10 @@
     </quickActionList>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Total_Funds__c</fields>
+        <fields>Funds_Used__c</fields>
+        <fields>Percentage_Funds_Used__c</fields>
+        <fields>Funds_Remaining__c</fields>
         <relatedList>Project__c.Grant__c</relatedList>
     </relatedLists>
     <relatedLists>
