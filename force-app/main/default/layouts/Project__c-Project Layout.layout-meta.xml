@@ -27,6 +27,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Percentage_Funds_Used__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Funds_Remaining__c</field>
             </layoutItems>
         </layoutColumns>
@@ -45,6 +49,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Construction_Funds_Used__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Percentage_Construction_Funds_Used__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -69,6 +77,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Percentage_Equipment_Funds_Used__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Equipment_Funds_Remaining__c</field>
             </layoutItems>
         </layoutColumns>
@@ -87,6 +99,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Personnel_Funds_Used__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Percentage_Personnel_Funds_Used__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -145,6 +161,9 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Construction_Amount__c</fields>
+        <fields>Equipment_Amount__c</fields>
+        <fields>Personnel_Amount__c</fields>
         <relatedList>Invoice__c.Project__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
