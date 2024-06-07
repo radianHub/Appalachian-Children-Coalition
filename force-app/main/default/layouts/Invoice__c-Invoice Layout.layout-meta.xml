@@ -9,7 +9,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Project__c</field>
+                <field>Subrecipient__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
