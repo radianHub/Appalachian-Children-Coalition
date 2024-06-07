@@ -63,7 +63,7 @@
         <field>Launchpad__Grant__c.Projects__r.Invoices__r$Name</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>Grants with Projects with Invoices</name>
+    <name>Grants with Subrecipients with Invoices</name>
     <params>
         <name>co</name>
         <value>1</value>
