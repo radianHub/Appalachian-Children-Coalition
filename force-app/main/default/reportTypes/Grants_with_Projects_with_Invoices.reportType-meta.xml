@@ -139,6 +139,11 @@
             <field>Funds_Unencumbered__c</field>
             <table>Launchpad__Grant__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Percentage_Funds_Expended__c</field>
+            <table>Launchpad__Grant__c</table>
+        </columns>
         <masterLabel>Grants</masterLabel>
     </sections>
     <sections>
