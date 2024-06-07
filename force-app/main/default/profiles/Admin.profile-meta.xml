@@ -108,6 +108,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Launchpad__Grant__c.Percentage_Funds_Expended__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Project__c.Construction_Funds_Remaining__c</field>
         <readable>true</readable>
     </fieldPermissions>
