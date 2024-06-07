@@ -28,6 +28,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Percentage_Funds_Expended__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Funds_Encumbered__c</field>
             </layoutItems>
             <layoutItems>
