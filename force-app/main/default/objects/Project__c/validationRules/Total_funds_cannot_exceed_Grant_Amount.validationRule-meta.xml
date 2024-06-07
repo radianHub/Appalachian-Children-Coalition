@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Total_funds_cannot_exceed_Grant_Amount</fullName>
-    <active>true</active>
-    <errorConditionFormula>Total_Funds__c  &gt;  Grant__r.Amount__c</errorConditionFormula>
-    <errorMessage>Total funds cannot exceed Grant Amount</errorMessage>
-</ValidationRule>
